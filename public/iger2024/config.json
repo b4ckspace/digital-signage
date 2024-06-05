@@ -1,0 +1,13 @@
+{
+    "name": "iger2024",
+    "css": [
+        "/style.css"
+    ],
+    "editable_elements": [
+        {"tag": "h1", "class": "heading", "default": "You are beautiful"},
+        {"tag": "h2", "class": "heading", "default": "Let's change the world"}
+    ],
+    "styling_elements": [
+        {"tag": "img", "alt": "Wiese", "class": "image", "id": "wiese", "src": "./iger2024/wiese.png"}
+    ]
+}
