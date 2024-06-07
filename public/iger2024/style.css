@@ -34,7 +34,7 @@
     src: url('./fonts/noto-sans-v28-latin-700italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
-body{
+body {
     font-family: 'Noto Sans', sans-serif;
 }
 
@@ -43,4 +43,10 @@ body{
     bottom: 0cm;
     left: 0cm;
     width: 100vw;
+}
+
+@media print {
+    #wiese {
+        width: 297mm;
+    }
 }
